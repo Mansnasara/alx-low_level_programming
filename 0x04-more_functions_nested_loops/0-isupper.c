@@ -5,14 +5,18 @@
  *
  * @c: input
  *
- * Return: 1 if c is uppercase, 0 otherwise
+ * Return: 0 if sucessful
  */
 
 int _isupper(int c)
 {
-	if ((c >= 'A') && (c <= 'Z'))
+	if (c >= 65 && c < 91)
+	{
 
 		return (1);
+	}
 	else
+	{
 		return (0);
+	}
 }
