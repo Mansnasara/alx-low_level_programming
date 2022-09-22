@@ -3,12 +3,12 @@
 /**
  * print_diagonal - diagonal lines made of backslashes
  *
- * @n: number of \ to be printed
+ * @n: input number of times '\' should to be printed
  *
- * Return: void
+ * Return: a diagonal
  */
 
-void print_diagonal(init n)
+void print_diagonal(int n)
 {
 	int i = 0, ii;
 
